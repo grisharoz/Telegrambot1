@@ -33,7 +33,7 @@ def main(message):
     bot.send_message(message.chat.id,'<b><u>Помощи</u></b> <b><em><u>не будет</u></em></b>',parse_mode='html')
 @bot.message_handler()
 def info(message):
-    if message.text.lower()=='привеt':
+    if message.text.lower()=='привеt pistolet':
         bot.send_message(message.chat.id, f'Привет, {message.from_user.first_name}')
     if message.text.lower()=='id':
         bot.reply_to(message,f'ID:{message.from_user.id}')
