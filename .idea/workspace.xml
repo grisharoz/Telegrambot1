@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9ce0542-3534-43bb-bf4e-fa9a3153f5e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Telegrambot_weather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currencybot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Telegrambot.executor": "Run",
-    "Python.Telegrambot_weather.executor": "Run",
-    "Python.Telegramweather.executor": "Run",
-    "Python.Telegramweather_bot.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Telegrambot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Telegrambot_weather.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Telegramweather.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Telegramweather_bot.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/all about buttons" />
