@@ -9,7 +9,7 @@ name = None
 
 @bot.message_handler(commands=["start", "telegram_bot"])
 def start(message):
-    file = open("./IMG_6303.jpg", "rb")
+    file = open("photo/IMG_6303.jpg", "rb")
     bot.send_photo(message.chat.id, file)
 
     # введение sqlite3
