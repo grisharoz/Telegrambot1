@@ -4,7 +4,7 @@ from aiogram.types.web_app_info import WebAppInfo
 from aiogram.filters import CommandStart
 from aiogram.utils.keyboard import ReplyKeyboardMarkup, KeyboardButton
 
-bot = Bot("6570661536:AAFkZFh-B_tlePjQ39gOOfFU2O6b9M6P940")
+bot = Bot("7293596681:AAE1f7MlR1PYYzYHc3mhWLQsVp5DxjBLNnM")
 dp = Dispatcher()
 
 
