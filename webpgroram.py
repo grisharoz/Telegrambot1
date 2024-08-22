@@ -1,14 +1,21 @@
-from aiogram import Bot, Dispatcher, executor, types
+import asyncio
+from aiogram import Bot, Dispatcher, types
 from aiogram.types.web_app_info import WebAppInfo
+from aiogram.filters import CommandStart
+from aiogram.utils.keyboard import ReplyKeyboardMarkup, KeyboardButton
 
-bot = Bot("7512813136:AAHMaQ5hz9K_8FeQiwT-_zgIJbYtnWVElx8")
-dp = Dispatcher(bot)
+bot = Bot("6570661536:AAFkZFh-B_tlePjQ39gOOfFU2O6b9M6P940")
+dp = Dispatcher()
 
 
-@dp.message_handler(commands=["start"])
+@dp.message(CommandStart)
 async def start(message):
-    markup = types.ReplyKeyboardMarkup()
-    markup.add(types.KeyboardButton("Открыть веб страницу", web_app=WebAppInfo))
+    markup = ReplyKeyboardMarkup(keyboard= [
+        [KeyboardButton(text="Открыть веб страницу", web_app=WebAppInfo(url="https://google.com"))]
+    ])
+    await message.answer("Test", reply_markup=markup)
 
+async def main():
+    await dp.start_polling(bot)
 
-executor.start_polling(dp)
+asyncio.run(main())
