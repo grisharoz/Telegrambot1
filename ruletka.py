@@ -5,15 +5,17 @@ start = input(
 )
 if start == "да":
     print("\nСупер! Давай поскорее начнём играть)")
+    choice = ""
     while True:
         money = input("Cколько ты хочешь поставить?:")
         stavka = input(
             "Выбери из переченя:'число','красное/чёрное','старшинство(1-18/19-36)','ряд,'совокупность чисел','столбец','посл 1-12/13-24/25-36',чётное/нечётное':"
         )
         my_list = [money]
-        listruletki = { 
+        listruletki = {
             "0": {"чётное": True},
             "1": {
+                "число": 1,
                 "чётное": False,
                 "цвет": "красный",
                 "ряд": "1",
@@ -633,8 +635,8 @@ if start == "да":
         }
 
         if stavka == "число":
-            user = input("Какое именно число от 0 дро 36 ты хочешь выбрать?:")
-            my_list.append(user)
+            choice = input("Какое именно число от 0 дро 36 ты хочешь выбрать?:") # 1
+            my_list.append(choice)
             continue
 
         if stavka == "красное/чёрное":
@@ -681,8 +683,12 @@ if start == "да":
 
         if again == "нет":
             rand = random.choice(list(listruletki))
-            print(rand)
+            print(rand) # 1
+            # stavka == "число":
+            # choice = 1
             # do something
+            if listruletki[choice][stavka] == choice:
+                money += 1
             
             break
 
