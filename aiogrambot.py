@@ -8,6 +8,7 @@ bot = Bot("7293596681:AAE1f7MlR1PYYzYHc3mhWLQsVp5DxjBLNnM")
 dp = Dispatcher()
 router = Router()
 
+<<<<<<< Updated upstream
 @router.message(Command("inline"))
 async def info(message: types.Message):
     markup = InlineKeyboardBuilder()
@@ -16,6 +17,17 @@ async def info(message: types.Message):
     markup.add(InlineKeyboardButton(text="Info", callback_data="information"))
     markup.add(InlineKeyboardButton(text="Help", url="https://nothelp.com"))
     await message.answer("Hello", reply_markup=markup.adjust(2).as_markup())
+=======
+
+@dp.message_handler(commands=["inline"])
+async def info(message: types.Message):py
+    markup = types.InlineKeyboardMarkup(row_width=2)
+    markup.add(types.InlineKeyboardButton("Site", url="https://DAGcasino.com"))
+    markup.add(types.InlineKeyboardButton("Hello", callback_data="hello"))
+    markup.add(types.InlineKeyboardButton("Info", callback_data="information"))
+    markup.add(types.InlineKeyboardButton("Help", url="https://nothelp.com"))
+    await message.reply("Hello", reply_markup=markup)
+>>>>>>> Stashed changes
 
 
 @router.callback_query()

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="a9ce0542-3534-43bb-bf4e-fa9a3153f5e7" name="Changes" comment="" />
+=======
+    <list default="true" id="a9ce0542-3534-43bb-bf4e-fa9a3153f5e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Telegrambot1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Telegrambot1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiogrambot.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiogrambot.py" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,15 +48,17 @@
     &quot;Python.Telegramweather_bot.executor&quot;: &quot;Run&quot;,
     &quot;Python.Webprogram.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.Webprogramm.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ruletka.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/photo" />
       <recent name="$PROJECT_DIR$/all about buttons" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Webprogramm.py">
+  <component name="RunManager">
     <configuration name="Telegrambot" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Telegrambot1" />
       <option name="ENV_FILES" value="" />
